@@ -672,19 +672,19 @@ public class Formulario extends javax.swing.JFrame {
 
             switch (this.comboInvCategoria.getSelectedIndex()) {
                 case 0:
-                    this.contAseo++;
+                    this.contAseo =+ inv.GetUNDS();
                     break;
                 case 1:
-                    this.contPapeleria++;
+                    this.contPapeleria=+ inv.GetUNDS();
                     break;
                 case 2:
-                    this.contViveres++;
+                    this.contViveres=+ inv.GetUNDS();
                     break;
                 case 3:
-                    this.conMascotas++;
+                    this.conMascotas=+ inv.GetUNDS();
                     break;
                 case 5:
-                    this.conOtros++;
+                    this.conOtros=+ inv.GetUNDS();
                     break;
                 default:
 
